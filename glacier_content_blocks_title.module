@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content blocks bundle: Title feature.
+ */
+
+include_once 'glacier_content_blocks_title.features.inc';
