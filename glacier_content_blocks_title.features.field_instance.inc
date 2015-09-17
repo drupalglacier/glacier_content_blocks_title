@@ -126,8 +126,8 @@ function glacier_content_blocks_title_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'paragraphs_item-title-field_pg_title_small_title'
-  $field_instances['paragraphs_item-title-field_pg_title_small_title'] = array(
+  // Exported field_instance: 'paragraphs_item-title-field_pg_title_secondary_title'
+  $field_instances['paragraphs_item-title-field_pg_title_secondary_title'] = array(
     'bundle' => 'title',
     'default_value' => NULL,
     'deleted' => 0,
@@ -156,8 +156,8 @@ function glacier_content_blocks_title_field_default_field_instances() {
     ),
     'entity_type' => 'paragraphs_item',
     'fences_wrapper' => 'h2',
-    'field_name' => 'field_pg_title_small_title',
-    'label' => 'Small title',
+    'field_name' => 'field_pg_title_secondary_title',
+    'label' => 'Secondary title',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
@@ -200,7 +200,7 @@ function glacier_content_blocks_title_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Main title');
-  t('Small title');
+  t('Secondary title');
   t('Styles');
 
   return $field_instances;

@@ -17,10 +17,10 @@ msgctxt "field_pg_title_main_title:title:label"
 msgid "Main title"
 msgstr "Haupttitel"
 
-#: field:field_pg_title_small_title:title:label
-msgctxt "field_pg_title_small_title:title:label"
-msgid "Small title"
-msgstr "Kleiner Titel"
+#: field:field_pg_title_secondary_title:title:label
+msgctxt "field_pg_title_secondary_title:title:label"
+msgid "Secondary title"
+msgstr "Sekundärtitel"
 
 #: field:field_pg_styles:title:label
 msgctxt "field_pg_styles:title:label"

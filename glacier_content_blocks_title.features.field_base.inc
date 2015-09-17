@@ -32,13 +32,13 @@ function glacier_content_blocks_title_field_default_field_bases() {
     'type' => 'text',
   );
 
-  // Exported field_base: 'field_pg_title_small_title'
-  $field_bases['field_pg_title_small_title'] = array(
+  // Exported field_base: 'field_pg_title_secondary_title'
+  $field_bases['field_pg_title_secondary_title'] = array(
     'active' => 1,
     'cardinality' => 1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_pg_title_small_title',
+    'field_name' => 'field_pg_title_secondary_title',
     'indexes' => array(
       'format' => array(
         0 => 'format',
