@@ -51,7 +51,7 @@ function glacier_content_blocks_title_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 6,
+      'weight' => 2,
     ),
   );
 
@@ -122,7 +122,7 @@ function glacier_content_blocks_title_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 0,
     ),
   );
 
