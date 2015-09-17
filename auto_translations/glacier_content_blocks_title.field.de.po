@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: field:field_pg_title_small_title:title:label
-msgctxt "field_pg_title_small_title:title:label"
-msgid "Small title"
-msgstr "Kleiner Titel"
-
 #: field:field_pg_title_main_title:title:label
 msgctxt "field_pg_title_main_title:title:label"
 msgid "Main title"
 msgstr "Haupttitel"
+
+#: field:field_pg_title_small_title:title:label
+msgctxt "field_pg_title_small_title:title:label"
+msgid "Small title"
+msgstr "Kleiner Titel"
 
 #: field:field_pg_styles:title:label
 msgctxt "field_pg_styles:title:label"

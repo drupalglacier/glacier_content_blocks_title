@@ -1,0 +1,8 @@
+{
+  "name": "glacier_content_blocks_title",
+  "version": "1.0.0",
+  "license": "GPL v2",
+  "dependencies": {
+    "avalanche_base_typography": "^2.0.0"
+  }
+}

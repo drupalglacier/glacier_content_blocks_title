@@ -1,4 +1,4 @@
-name = Content blocks bundle: Title
+name = Content blocks: Title
 core = 7.x
 package = glacier
 version = 7.x-1.0
