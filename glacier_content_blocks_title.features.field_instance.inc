@@ -44,13 +44,24 @@ function glacier_content_blocks_title_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'entity_translation_sync' => FALSE,
+      'select2_integration' => array(
+        'allow_add_onfly' => 0,
+        'show_voc_terms_page_link' => 0,
+        'styling' => array(
+          'dropdownAutoWidth' => 0,
+          'placeholder' => '',
+        ),
+        'use_select2' => 0,
+      ),
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
+      'settings' => array(
+        'use_select2' => FALSE,
+      ),
+      'type' => 'options_select',
       'weight' => 2,
     ),
   );
@@ -126,7 +137,8 @@ function glacier_content_blocks_title_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'paragraphs_item-title-field_pg_title_secondary_title'
+  // Exported field_instance:
+  // 'paragraphs_item-title-field_pg_title_secondary_title'
   $field_instances['paragraphs_item-title-field_pg_title_secondary_title'] = array(
     'bundle' => 'title',
     'default_value' => NULL,
