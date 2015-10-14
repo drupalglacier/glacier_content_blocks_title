@@ -2,7 +2,7 @@
 The title content block provides a main title and a sub title field.
 
 ## About
-Github: https://github.com/maoberlehnerdrupal/glacier_content_blocks_title
+Github: https://github.com/drupalglacier/glacier_content_blocks_title
 
 ### Author
 Markus Oberlehner  
